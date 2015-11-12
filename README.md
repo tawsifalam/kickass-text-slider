@@ -1,7 +1,11 @@
 # Kickass Text Slider
-------
-## Transform Bootsrap Tabs to A sliding Panel
-First of all we need the HTML structure like Following. For the Parent div we still need kickassTextSlider class name exact. Also include the navigation div. You can rename the class name for that navigation div.
+-----------
+
+## Transform Bootstrap Tabs to A sliding Panel
+
+First of all we need the HTML structure like Following. 
+Wrap the ul with class of nav-tabs with a div with a class name kickassTextSlider. The div class name should match exactly like I specified at the code example. 
+Also include the navigation div inside the div. You can rename the class name for that navigation div.
 ```
 <div class="kickassTextSlider">
 
@@ -24,7 +28,7 @@ Then include the jquery.kickasstextslider.css file in The head:
 <link href="css/jquery.kickasstextslider.css" rel="stylesheet">
 ```
 
-Finally include the jquery.kickasstextslider.js in the Footer:
+Finally include the jquery.kickasstextslider.js in the Footer and initialize the plugin.
 ```
 <script src="js/jquery.kickasstextslider.js"></script>
 <script>
@@ -36,3 +40,12 @@ Finally include the jquery.kickasstextslider.js in the Footer:
 ```
 
 For now just 2 options are Available. One is for the class name of navigation div and another one is for the speed. You can download and check the demo.
+
+##License
+-----------
+This package is published under GNU LGPLv3 license and copyright to Tawsif Alam. Idea is provided by <a href="https://github.com/asikur">Asikur Islam</a>. The license agreement is on project's root.
+
+License: GNU LGPLv3
+Package Author: Tawsif Alam
+Package Copyright: Tawsif Alam
+Original Idea By: <a href="https://github.com/asikur">Asikur Islam</a>
