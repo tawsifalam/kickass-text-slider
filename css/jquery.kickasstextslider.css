@@ -1,0 +1,53 @@
+/* KickAssText Slider
+========================
+*/
+
+.kickassTextSlider {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #e3e3e3;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.kickassTextSlider .nav-tabs {
+	border-bottom: 0;
+}
+
+.kickassTextSlider ul {
+	position: relative;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.kickassTextSlider > ul > li > a {
+	padding-right: 60px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+}
+
+.kickassTextSlider .nav-tabs>li.active>a, 
+.kickassTextSlider .nav-tabs>li.active>a:focus, 
+.kickassTextSlider .nav-tabs>li.active>a:hover {
+	border: 0;
+}
+
+.kickass-slider-nav {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.kickass-slider-nav button {
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+	font-size: 13px;
+	line-height: inherit;
+	color: #00baff;
+	background-color: transparent;
+}
