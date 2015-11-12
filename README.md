@@ -42,10 +42,9 @@ Finally include the jquery.kickasstextslider.js in the Footer and initialize the
 For now just 2 options are Available. One is for the class name of navigation div and another one is for the speed. You can download and check the demo.
 
 ##License
------------
-This package is published under GNU LGPLv3 license and copyright to Tawsif Alam. Idea is provided by <a href="https://github.com/asikur">Asikur Islam</a>. The license agreement is on project's root.
+This package is published under `GNU LGPLv3` license and copyright to [Tawsif Alam](https://github.com/tawsifalam/). Idea is provided by [Asikur Islam](https://github.com/asikur). The license agreement is on project's root.
 
 License: GNU LGPLv3
-Package Author: Tawsif Alam
+Package Author: [Tawsif Alam](https://github.com/tawsifalam/)
 Package Copyright: Tawsif Alam
-Original Idea By: <a href="https://github.com/asikur">Asikur Islam</a>
+Original Idea By: [Asikur Islam](https://github.com/asikur)
