@@ -43,7 +43,7 @@ For now just 2 options are Available. One is for the class name of navigation di
 ##License
 This package is published under `GNU LGPLv3` license and copyright to [Tawsif Alam](https://github.com/tawsifalam/). Idea is provided by [Asikur Islam](https://github.com/asikur). The license agreement is on project's root.
 
-License: GNU LGPLv3
-Package Author: [Tawsif Alam](https://github.com/tawsifalam/)
-Package Copyright: Tawsif Alam
-Original Idea By: [Asikur Islam](https://github.com/asikur)
+License: GNU LGPLv3<br />
+Package Author: [Tawsif Alam](https://github.com/tawsifalam/)<br />
+Package Copyright: Tawsif Alam<br />
+Original Idea By: [Asikur Islam](https://github.com/asikur)<br />
