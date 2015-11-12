@@ -4,7 +4,7 @@
 
 First of all we need the HTML structure like Following. 
 Wrap the ul with class of nav-tabs with a div with a class name kickassTextSlider. The div class name should match exactly like I specified at the code example. 
-Also include the navigation div inside the div. You can rename the class name for that navigation div.
+Also include the navigation div inside the div. You can rename the class name for that navigation div. If you want to keep navigation how it looks now then keep the class name kickass-slider-nav for the div and also add the data-dir attribute to define the direction for that button and they needs to be "next" for the next direction and "prev" for the previous direction.
 ```
 <div class="kickassTextSlider">
 
