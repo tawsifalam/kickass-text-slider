@@ -91,9 +91,5 @@ if ( typeof Object.create !== 'function') {
         });
     };
 
-    $.fn.kickassTextSlider.options = {
-        nav: '.kickass-slider-nav'
-    }
-
 
 })( jQuery, window, document );
