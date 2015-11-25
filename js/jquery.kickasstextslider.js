@@ -30,11 +30,18 @@ if ( typeof Object.create !== 'function') {
             self.options = $.extend( {}, defaultOptions, options );
 
             self.containerWidth     = self.$elem.width(),
+            self.containerHeight    = self.$elem.find('li > a'),
             self.listElems          = self.$elem.find('li'),
             self.totalListElem      = self.listElems.length,
             self.current            = 0;
 
             self.listElems.find('a').css('width', self.containerWidth);
+
+            $(window).on('resize', function() {
+                self.containerWidth     = self.$elem.width();
+                self.listElems.find('a').css('width', self.containerWidth);
+                self.transition();
+            });
 
             if( self.nav === undefined ) {
                 self.nav = self.options.nav;
@@ -90,6 +97,10 @@ if ( typeof Object.create !== 'function') {
             kickass.init( options, this )
         });
     };
+
+    $.fn.kickassTextSlider.options = {
+        nav: '.kickass-slider-nav'
+    }
 
 
 })( jQuery, window, document );
