@@ -35,14 +35,6 @@ if ( typeof Object.create !== 'function') {
             self.totalListElem      = self.listElems.length,
             self.current            = 0;
 
-            self.listElems.find('a').css('width', self.containerWidth);
-
-            $(window).on('resize', function() {
-                self.containerWidth     = self.$elem.width();
-                self.listElems.find('a').css('width', self.containerWidth);
-                self.transition();
-            });
-
             if( self.nav === undefined ) {
                 self.nav = self.options.nav;
             }
@@ -53,10 +45,23 @@ if ( typeof Object.create !== 'function') {
         handleProcess: function() {
             var self = this;
 
+            self.responsiveElemWidth();
             $(this.nav).find('button').on('click', function(){
         		self.setCurrent( $(this).data('dir') );
         		self.transition();
         	});
+        },
+
+        responsiveElemWidth: function () {
+        	var self = this;
+
+        	self.listElems.find('a').css('width', self.containerWidth);
+
+            $(window).on('resize', function() {
+                self.containerWidth     = self.$elem.width();
+                self.listElems.find('a').css('width', self.containerWidth);
+                self.transition();
+            });
         },
 
 
